@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>תורה</title>
+    <title></title>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mustache.min.js"></script>
+
+    <script src="js/api.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+
+
+  </head>
+   <body>
+     <div id="skin">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-12 text-center" id="">
+             <div id="calendar"></div>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-12 text-center" id="">
+             <div id="clock"></div>
+           </div>
+         </div>
+         <div class="row">
+           <div dir="rtl" class="col-md-12 text-center" id="">
+              <div class="row">
+               <div class="col-md-3 text-center" id=""></div>
+               <div class="col-md-3 text-center" id="">
+                 <div id="sunrise"></div>
+               </div>
+               <div class="col-md-3 text-center" id="">
+                 <div id="sunset"></div>
+               </div>
+               <div class="col-md-3 text-center" id=""></div>
+              </div>
+            </div>
+         </div>
+       </div>
+     </div>
+     <div id="content">
+       <div class="container">
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a data-toggle="tab" href="#menu0">מוזיקה</a></li>
+          <li ><a data-toggle="tab" href="#menu1">מיזוג</a></li>
+          <li ><a data-toggle="tab" href="#menu2">תאורה</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="menu0" class="tab-pane fade in active">
+            <div ><iframe id="frame1" frameborder="0" style="" src="http://10.0.1.12:3001/"></iframe></div>
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <div ><iframe frameborder="0" src="http://10.0.1.11:3001/"></iframe></div>
+          </div>
+          <div id="menu2" class="tab-pane fade ">
+            <div ><iframe frameborder="0" src="http://10.0.1.11:3000"></iframe></div>
+          </div>
+
+        </div>
+        <br>
+        </div>
+       <div id="con"></div>
+     <div>
+   </body>
+</html>
